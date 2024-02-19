@@ -18,7 +18,7 @@
 	"cpu", 
 	"temperature", 
 	"memory",
-	//"disk",
+	"disk",
 	"custom/weather",
 	],
   
@@ -31,9 +31,10 @@
 	], 
 
 "modules-right": [
-	//"hyprland/window", 
 	"tray",
 	"cava", 
+	"hyprland/window",
+
 	"battery", 
 	"backlight",
 	"pulseaudio",
