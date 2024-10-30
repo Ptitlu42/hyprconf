@@ -24,10 +24,4 @@ ring-clear-color=9ccfd8
 line-clear-color=1f1d2e
 line-wrong-color=1f1d2e
 bs-hl-color=31748f
-grace=1
-grace-no-mouse
-grace-no-touch
-fade-in=0.2
-ignore-empty-password
-timestr=%H:%M:%S
-datestr=%d %B, %a
+# ignore-empty-password

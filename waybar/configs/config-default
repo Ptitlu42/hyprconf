@@ -2,11 +2,10 @@
 
 "include": "~/.config/hypr/waybar/modules",
 "layer": "top",
-//"mode": "dock",
 "exclusive": true,
 "passthrough": false,
 "position": "top",
-"spacing": 3,
+"spacing": 16,
 "fixed-center": true,
 "ipc": true,
 "margin-top": 4,
@@ -19,7 +18,7 @@
 	"temperature", 
 	"memory",
 	"disk",
-	"custom/weather",
+	"custom/weather"
 	],
   
 "modules-center": [
@@ -27,7 +26,7 @@
 	"idle_inhibitor", 
 	"clock",
 	"custom/light_dark",	
-	"custom/lock",	
+	"custom/lock"
 	], 
 
 "modules-right": [
@@ -38,9 +37,8 @@
 	"battery", 
 	"backlight",
 	"pulseaudio",
-	//"wireplumber", 
 	"pulseaudio#microphone",
 	"keyboard-state",
-	"custom/power",
-	],
+	"custom/power"
+	]
 }
