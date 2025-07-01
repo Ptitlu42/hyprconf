@@ -19,6 +19,7 @@ def run_command(command):
             current_process = None
         else:
             current_process = subprocess.Popen(command, shell=True)
+    except Exception as e:
         print(e)
 
 def terminate_process(process):
@@ -44,6 +45,6 @@ for event in device.read_loop():
                 if swipe_distance > 0:
                     run_command("svkbd-mobile-intl")
                 else:
-                    run_command("svkbd-mobile-intl")
+                    run_command("killall svkbd-mobile-intl")
         start_y = None
         end_y = None
